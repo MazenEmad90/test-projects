@@ -1,6 +1,516 @@
 body{
+    background-color: #eee;
+    /* text-align: center; */
+}
+/* start hr */
+.hr_one{
+    background-color: rgb(157, 148, 148);
+    font-weight: 900;
+    width: 100%;
+    height: 2px;
+    margin-left: -8px;
+    /* margin-right: -10px; */
+
+}
+.hr_two{
+    background-color: rgb(188, 181, 181);
+    font-weight: 900;
+    width: 100%;
+    height: 2px;
+    margin-left: -8px;
+    /* margin-right: -10px; */
+
+}.hr_three{
     background-color: black;
-    color: rgb(255, 0, 0);
+    font-weight: 900;
+    width: 100%;
+    height: 2px;
+    margin-left: -8px;
+    /* margin-right: -10px; */
+
+}
+/* end hr */
+/* start icon */
+.icon{
+    /* width: 1300px; */
+    height: 70px;
+    display: flex;
     text-align: center;
-    font-size: 50px;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+/* start icon one */
+.icon_one{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_one div{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.icon_one div p{
+    font-size: 110%;
+    font-weight: 900;
+    margin-top: 3px;
+    color: white;
+
+}
+/* end icon one */
+/* start icon two */
+.icon_two{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_two div{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.icon_two div p{
+    font-size: 110%;
+    font-weight: 900;
+    margin-top: 3px;
+    color: white;
+
+}
+/* end icon two */
+/* start icon three */
+.icon_three{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_three div{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.icon_three div p{
+    font-size: 110%;
+    font-weight: 900;
+    margin-top: 3px;
+    color: white;
+
+}
+/* end icon three */
+/* start icon four */
+.icon_four{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_four div{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.icon_four div p{
+    font-size: 110%;
+    font-weight: 900;
+    margin-top: 3px;
+    color: white;
+
+}
+/* end icon four */
+/* start icon five */
+.icon_five{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_five div{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    border-color:white 900 50px  ;
+    z-index: 1246;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.icon_five div p{
+    font-size: 110%;
+    font-weight: 900;
+    margin-top: 3px;
+    color: white;
+}
+/*end icon five*/
+/* start icon six */
+.icon_six{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 50%;
+}
+.icon_six div{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -25px;
+    margin-bottom: 50px;
+}
+.icon_six div p{
+    font-size: 110%;
+    font-weight: 900;
+    margin-top: 3px;
+    color: white;
+
+}
+
+/* end icon six */
+/* end icon */
+/* start text */
+.text{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    /* border-radius: 50%; */
+    margin-bottom: -20px;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.text .seting{
+    display: flex;
+    /* text-align: center; */
+    /* align-items: center; */
+    margin: 10px;
+}
+.seting_two{
+    margin-left: 20px;
+}
+/* end text */
+/* start photos */
+/* start photo_one */
+
+.photos{
+    /* width: 1300px; */
+    height: 70px;
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    
+}
+.photos img{
+    border-radius: 100%;
+    
+}
+.photos_one{
+    display: flex;
+
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.photos_one div{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -100px;
+    margin-bottom: -50px;
+}
+.photos_one div p{
+    font-size: 200%;
+    font-weight: 900;
+    margin-top: -5px;
+    color: white;
+}
+.ssone{
+    font-size: 20px;
+    margin-top: -1px;
+    font-weight: 700;
+}
+/* end photo_one */
+/* start photo_two */
+.photos_two{
+    display: flex;
+
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+}
+.photos_two div{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -25px;
+    margin-bottom: -40px;
+    border-style: solid;
+    border-color: #eee;
+
+} 
+
+.ss_two span p{
+    font-size: 40px;
+} 
+.photos span {
+    font-size: 30px; 
+    font-weight: 700;
+}
+.name{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.new_massage{
+    background-color: #453d3d70;
+    display: flex;
+
+    text-align: center;
+    
+    align-items: center;
+    border-radius: 2%;
+}
+.new_massage_one{
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    align-items: center;
+}
+.new_massage_one div{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(187, 3, 3);
+    border-radius: 50%;
+    z-index: 1246;
+    margin-left: -15px;
+    margin-bottom: 30px;
+}
+.new_massage_one div p{
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.new_massage h2{
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.end{
+    margin-top: 5px;
+}
+.end div img{
+    border-radius: 110%;
+    width: 80px;
+    margin-top: 20px;
+    
+}
+.photo_one {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_oneh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.photo_one p {
+    font-size: 20px;
+    margin-right: -100px;
+    margin-top: 70px;
+}
+/*end one*/
+.photo_two {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_twoh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_twop {
+    font-size: 20px;
+    margin-top: 70px; 
+    /* margin-left: 10px; */
+    font-weight: 900;
+}
+/*end three*/
+.photo_three {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_threeh1{
+    /* margin-right: 200px; */
+    margin-bottom: 50px;
+}   
+.phto_threep {
+    font-size: 20px;
+    margin-top: 70px; 
+    margin-left: -120px;
+    font-weight: 900;
+}
+/*end four*/
+.photo_four {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_fourh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_fourp {
+    font-size: 20px;
+    margin-top: 70px; 
+    margin-left: -30px;
+    font-weight: 900;
+}
+/*end five*/
+.photo_five {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_fiveh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_fivep {
+    font-size: 20px;
+    margin-top: 70px; 
+    /* margin-left: 10px; */
+    font-weight: 900;
+}
+/*end six*/
+.photo_six {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_sixh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_sixp {
+    font-size: 20px;
+    margin-top: 70px; 
+    margin-left: 30px;
+    font-weight: 900;
+}
+/*end seven*/
+.photo_seven {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_sevenh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_sevenp {
+    font-size: 20px;
+    margin-top: 70px; 
+    margin-left: 35px;
+    font-weight: 900;
+}
+/*end eight*/
+.photo_eight {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_eighth1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.photo_eight p {
+    font-size: 20px;
+    margin-top: 70px; 
+    margin-left: -20px;
+    font-weight: 900;
+}
+/*end nine*/
+.photo_nine {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_nineh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_ninep {
+    font-size: 20px;
+    margin-top: 70px; 
+    margin-left: -100px;
+    font-weight: 900;
+}
+/*end ten*/
+.photo_ten {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.photo_tenh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_tenp {
+    font-size: 20px;
+    /* margin-right: -80px; */
+    margin-top: 70px;
+    text-align: start;
+}
+/*end eleven*/
+.photo_eleven {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.photo_elevenh1{
+    margin-right: -150px;
+    margin-bottom: 50px;
+}   
+.phto_elevenp {
+     font-size: 20px;
+     margin-top: 70px; 
+     margin-left: -100px;
+     font-weight: 900;
+ 
 }
